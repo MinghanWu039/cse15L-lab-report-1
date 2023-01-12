@@ -10,6 +10,20 @@ To install VS Code, go to the VS code website: [link](https://code.visualstudio.
 
 Press "Download Mac Universal" and proceed by following instructions (if you are using a Windows then use the scroll button).
 
-After you install successfully, you should see this when you run VS code:
+After you install successfully, you should see this when you run VS code (for Windows it's something similar):
 
-![Image]
+![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/6b8b2913bc08cb8226aa8a92bbbbc477200ff274/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%882.17.34.png)
+
+----
+Part II - Remotely Connecting
+-----------
+In order to remotely connect to a remote server, you need to have a CSE15L account first and have changed the password.
+
+To do so, follow the instructions on this [link](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+
+Then, if you're a Windows user, please refer to the part 4 of this [link](https://ucsd-cse15l-w23.github.io/week/week1/) to install gitbash.
+
+The next steps will be done in VS Code. Open VS Code. To open the terminal, either click "Terminal" -> "New Terminal" or control+shift+` (for mac)
+
+The terminal should look like this:
+![Image](
