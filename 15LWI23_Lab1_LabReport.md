@@ -10,3 +10,6 @@ To install VS Code, go to the VS code website: [link](https://code.visualstudio.
 
 Press "Download Mac Universal" and proceed by following instructions (if you are using a Windows then use the scroll button).
 
+After you install successfully, you should see this when you run VS code:
+
+![Image]
