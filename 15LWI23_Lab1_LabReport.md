@@ -26,4 +26,18 @@ Then, if you're a Windows user, please refer to the part 4 of this [link](https:
 The next steps will be done in VS Code. Open VS Code. To open the terminal, either click "Terminal" -> "New Terminal" or control+shift+` (for mac)
 
 The terminal should look like this:
-![Image](
+![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/c2136a4fa71ec100e896a4163f2863fc60cca136/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.37.22.png)
+
+Then, to use ssh, put in this command: 'ssh cs15lwi23zz@ieng6.ucsd.edu' ('' not included) where zz should be replaced by your 3-letter course username.
+Mine is "aur".
+![Image]()
+
+Since it's the first time you access this server, you will likely get this message:
+![Image}()
+
+Select "yes" and enter your password. If you have just changed your account password, you should wait about 10 min for the system to update.
+
+Note that the password you enter will not appear on the screen.
+
+After that, you should find this:
+![Image]()
