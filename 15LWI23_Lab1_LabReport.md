@@ -28,7 +28,7 @@ The next steps will be done in VS Code. Open VS Code. To open the terminal, eith
 The terminal should look like this:
 ![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/c2136a4fa71ec100e896a4163f2863fc60cca136/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.37.22.png)
 
-Then, to use ssh, put in this command: 'ssh cs15lwi23zz@ieng6.ucsd.edu' ('' not included) where zz should be replaced by your 3-letter course username.
+Then, to use ssh, put in this command: *ssh cs15lwi23zz@ieng6.ucsd.edu*  where zz should be replaced by your 3-letter course username.
 Mine is "aur".
 ![Image]()
 
@@ -40,4 +40,27 @@ Select "yes" and enter your password. If you have just changed your account pass
 Note that the password you enter will not appear on the screen.
 
 After that, you should find this:
+![Image]()
+
+----
+Part III - Trying Commands
+-----------------
+
+You can try the following commands:
+
+*ls* -- list files
+
+*cd + (directory)* -- change directory
+
+*ls -lat*
+
+*ls -a*
+
+*ls\<directory\>* -- where \<directory\> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc where abc is someone else's username
+
+*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/*
+
+*cat /home/linux/ieng6/cs15lwi23/public/hello.txt*
+
+Here is an example of me inputting *ls -lat* before opening the file hello.txt:
 ![Image]()
