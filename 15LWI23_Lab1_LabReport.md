@@ -40,7 +40,7 @@ Select "yes" and enter your password. If you have just changed your account pass
 Note that the password you enter will not appear on the screen.
 
 After that, you should find this:
-![Image]()
+![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/7b0dd92d4966fef47b6c4b33cb74845c7987341a/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.48.12.png)
 
 ----
 Part III - Trying Commands
