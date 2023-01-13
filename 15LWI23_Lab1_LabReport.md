@@ -32,8 +32,8 @@ Then, to use ssh, put in this command: *ssh cs15lwi23zz@ieng6.ucsd.edu*  where z
 Mine is "aur".
 ![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/0a154c0fa893d8f061dd8499ea86283acbf97ec9/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.44.26.png)
 
-Since it's the first time you access this server, you will likely get this message:
-![Image}()
+If it's the first time you access this server, you will likely get this message:
+![Image}(https://github.com/MinghanWu039/cse15l-lab-reports/blob/ee1656337dabd8fa5db8c7b11a74210a96a5f7c1/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.45.49.png)
 
 Select "yes" and enter your password. If you have just changed your account password, you should wait about 10 min for the system to update.
 
