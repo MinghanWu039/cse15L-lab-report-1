@@ -2,13 +2,14 @@ Remote Access Tutorial - Minghan Wu
 ====================
 Part I - Installing Visual Studio Code
 ----------
-I have installed VS Code already on my macbook.
 
 To install VS Code, go to the VS code website: [link](https://code.visualstudio.com/)
 
 ![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/0e39e588b1c2d4504c37e916c74dc309a26eb76b/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.01.23.png)
 
-Press "Download Mac Universal" and proceed by following instructions (if you are using a Windows then use the scroll button).
+Click "Download Mac Universal" (if you are using a Windows then use the scroll button) and proceed by following the instructions.
+
+I have installed VS code on my computer so no screenshots available for the installation process.
 
 After you install successfully, you should see this when you run VS code (for Windows it's something similar):
 
@@ -26,20 +27,27 @@ Then, if you're a Windows user, please refer to the part 4 of this [link](https:
 The next steps will be done in VS Code. Open VS Code. To open the terminal, either click "Terminal" -> "New Terminal" or control+shift+` (for mac)
 
 The terminal should look like this:
+
 ![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/c2136a4fa71ec100e896a4163f2863fc60cca136/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.37.22.png)
 
-Then, to use ssh, put in this command: *ssh cs15lwi23zz@ieng6.ucsd.edu*  where zz should be replaced by your 3-letter course username.
-Mine is "aur".
+Then, to use ssh, put in this command: *ssh cs15lwi23zz@ieng6.ucsd.edu*  where zz should be replaced by your 3-letter course username. Mine is "aur".
+
 ![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/0a154c0fa893d8f061dd8499ea86283acbf97ec9/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.44.26.png)
 
 If it's the first time you access this server, you will likely get this message:
-![Image}(https://github.com/MinghanWu039/cse15l-lab-reports/blob/ee1656337dabd8fa5db8c7b11a74210a96a5f7c1/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.45.49.png)
+
+> The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+> 
+> RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+> 
+> Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 
 Select "yes" and enter your password. If you have just changed your account password, you should wait about 10 min for the system to update.
 
 Note that the password you enter will not appear on the screen.
 
 After that, you should find this:
+
 ![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/7b0dd92d4966fef47b6c4b33cb74845c7987341a/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.48.12.png)
 
 ----
@@ -63,4 +71,7 @@ You can try the following commands:
 *cat /home/linux/ieng6/cs15lwi23/public/hello.txt*
 
 Here is an example of me inputting *ls -lat* before opening the file hello.txt:
-![Image]()
+
+![Image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/86670f23a252caed6a68895599e62c39e813e7bc/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%885.00.05.png)
+
+Finally, to log out, type the command *exit*.
