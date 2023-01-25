@@ -71,8 +71,11 @@ You can try the following commands:
 
 ```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 
-Here is an example of me inputting *ls -lat* before opening the file hello.txt:
+Here is an example of me inputting ```ls -lat``` before opening the file hello.txt:
 
 ![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/86670f23a252caed6a68895599e62c39e813e7bc/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%885.00.05.png?raw=true)
+
+In comparison, here is what happens when I input ```ls -a``` and ```ls -la```:
+
 
 Finally, to log out, type the command ```exit```.
