@@ -30,17 +30,18 @@ The terminal should look like this:
 
 ![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/c2136a4fa71ec100e896a4163f2863fc60cca136/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.37.22.png?raw=true)
 
-Then, to use ssh, put in this command: *ssh cs15lwi23zz@ieng6.ucsd.edu*  where zz should be replaced by your 3-letter course username. Mine is "aur".
+Then, to use ssh, put in this command: ```ssh cs15lwi23zz@ieng6.ucsd.edu```  where zz should be replaced by your 3-letter course username. Mine is ```aur```.
 
 ![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/0a154c0fa893d8f061dd8499ea86283acbf97ec9/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.44.26.png?raw=true)
 
 If it's the first time you access this server, you will likely get this message:
+ ```
+The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
+ 
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 
-> The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
-> 
-> RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-> 
-> Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
 
 Select "yes" and enter your password. If you have just changed your account password, you should wait about 10 min for the system to update.
 
@@ -56,22 +57,22 @@ Part III - Trying Commands
 
 You can try the following commands:
 
-*ls* -- list files
+ ```ls``` -- list files
 
-*cd + (directory)* -- change directory
+```cd + (directory)``` -- change directory
 
-*ls -lat*
+```ls -lat```
 
-*ls -a*
+```ls -a```
 
-*ls\<directory\>* -- where \<directory\> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc where abc is someone else's username
+```ls\<directory\>``` -- where ```\<directory\>``` is ```/home/linux/ieng6/cs15lwi23/cs15lwi23abc``` where ```abc``` is someone else's username
 
-*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/*
+```cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/```
 
-*cat /home/linux/ieng6/cs15lwi23/public/hello.txt*
+```cat /home/linux/ieng6/cs15lwi23/public/hello.txt```
 
 Here is an example of me inputting *ls -lat* before opening the file hello.txt:
 
 ![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/86670f23a252caed6a68895599e62c39e813e7bc/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%885.00.05.png?raw=true)
 
-Finally, to log out, type the command *exit*.
+Finally, to log out, type the command ```exit```.
