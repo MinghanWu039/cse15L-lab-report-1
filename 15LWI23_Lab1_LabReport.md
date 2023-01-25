@@ -77,5 +77,10 @@ Here is an example of me inputting ```ls -lat``` before opening the file hello.t
 
 In comparison, here is what happens when I input ```ls -a``` and ```ls -la```:
 
+![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/a5ab65ae88a25dc50e20ac8bcb2546b6d5c1c374/%E6%88%AA%E5%B1%8F2023-01-25%20%E4%B8%8A%E5%8D%8811.11.02.png)
+
+![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/a5ab65ae88a25dc50e20ac8bcb2546b6d5c1c374/%E6%88%AA%E5%B1%8F2023-01-25%20%E4%B8%8A%E5%8D%8811.11.19.png)
+
+Observe that ```ls -a``` just shows every file name; ```ls -la``` lists the long format of them; On top of that, ```ls -lat``` sorts the files by time and date.
 
 Finally, to log out, type the command ```exit```.
