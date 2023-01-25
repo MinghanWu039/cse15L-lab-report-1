@@ -1,5 +1,5 @@
-Remote Access Tutorial - Minghan Wu
-====================
+# Remote Access Tutorial - Minghan Wu
+
 ## Part I - Installing Visual Studio Code
 
 To install VS Code, go to the [VS code website](https://code.visualstudio.com/)
@@ -14,7 +14,7 @@ After you install successfully, you should see this when you run VS code (for Wi
 
 ![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/6b8b2913bc08cb8226aa8a92bbbbc477200ff274/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%882.17.34.png?raw=true)
 
-----
+-----------------------------------
 ## Part II - Remotely Connecting
 
 In order to remotely connect to a remote server, you need to have a CSE15L account first and have changed the password.
@@ -50,7 +50,7 @@ After that, you should find this:
 
 ![image](https://github.com/MinghanWu039/cse15l-lab-reports/blob/7b0dd92d4966fef47b6c4b33cb74845c7987341a/%E6%88%AA%E5%B1%8F2023-01-12%20%E4%B8%8B%E5%8D%883.48.12.png?raw=true)
 
-----
+------------------------------
 ## Part III - Trying Commands
 
 You can try the following commands:
